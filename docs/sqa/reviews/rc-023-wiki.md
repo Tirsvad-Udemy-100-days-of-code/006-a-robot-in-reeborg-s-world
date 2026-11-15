@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | S01 (Product Owner) | Initial version; reviewed in the review itself, autonomous, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | S01 (Product Owner) | Initial version; reviewed in the review itself, autonomous, not independent | [1e74867] |
 
 ---
 
@@ -74,3 +74,4 @@ Go-with-conditions — every Mandatory criterion that can be judged before publi
 [WIKI]: ../../wiki
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
+[1e74867]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/1e7486705e7656ee6aa251f7325d729d52b22694
