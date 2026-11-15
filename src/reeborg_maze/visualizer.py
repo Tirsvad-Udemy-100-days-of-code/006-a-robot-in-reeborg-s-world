@@ -64,6 +64,7 @@ def make_frame_printer(delay: float):
 
     def show(robot: SimulatedRobot) -> None:
         print(ANSI_HOME + render(robot), flush=True)
-        time.sleep(delay)
+        # The pause is the animation frame delay the user chose, not a leftover.
+        time.sleep(delay)  # nosemgrep
 
     return show
