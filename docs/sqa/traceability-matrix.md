@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-15 | Deprecated | Jens Tirsvad Nielsen | S01 (Product Owner) | Added RC-024, the check of the published wiki; reviewed in the Product Owner's plan acceptance, autonomous, not independent | [c2e0b2f] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | S01 (Product Owner) | Wiki languages confirmed by S01 (RC-025); reviewed in the Product Owner's plan acceptance, autonomous, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | S01 (Product Owner) | Wiki languages confirmed by S01 (RC-025); reviewed in the Product Owner's plan acceptance, autonomous, not independent | [327bf4a] |
 
 ---
 
@@ -58,3 +58,4 @@
 [RC-024]: ./reviews/rc-024-wiki-published.md
 [c2e0b2f]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/c2e0b2ff624274be37cbeeb83acf720f0328b5a3
 [RC-025]: ./reviews/rc-025-wiki-languages.md
+[327bf4a]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/327bf4a5249596b2d6e038d364259bdf5f4b26c8
