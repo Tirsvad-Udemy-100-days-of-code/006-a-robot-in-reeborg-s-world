@@ -18,7 +18,7 @@ each document lives in *this* project and the next version to use.
 | DM | Domain Model | docs/domain-model.md | 002 |
 | SSD | System Sequence Diagram | docs/use-cases/uc-*/ssd.md | 002 |
 | DICT | Domain Dictionary (PO and IT terms) | docs/dictionary.md | 002 |
-| RC | SQA Review Record | docs/sqa/reviews/rc-*.md | 023 |
+| RC | SQA Review Record | docs/sqa/reviews/rc-*.md | 024 |
 | TM | Traceability Matrix | docs/sqa/traceability-matrix.md | 002 |
 | GOV | Governance / ARB Workflow | docs/sqa/governance.md | 002 |
 

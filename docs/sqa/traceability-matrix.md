@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Deprecated | Jens Tirsvad Nielsen | S01 (Product Owner) | Initial version, G1 state; reviewed in the Product Owner's plan acceptance, autonomous, not independent | [422cb5e] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | S01 (Product Owner) | Added the G2 artifacts, code reviews and concern coverage; reviewed in the Product Owner's plan acceptance, autonomous, not independent | [f9581e1] |
+| 2026-11-15 | Deprecated | Jens Tirsvad Nielsen | S01 (Product Owner) | Added the G2 artifacts, code reviews and concern coverage; reviewed in the Product Owner's plan acceptance, autonomous, not independent | [f9581e1] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | S01 (Product Owner) | Added the wiki and concern CN-008; reviewed in the Product Owner's plan acceptance, autonomous, not independent | pending |
 
 ---
 
@@ -52,3 +52,5 @@
 [UCD-001]: ../use-case-diagram.md
 [US-001]: ../user-stories.md
 [f9581e1]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/f9581e128ebea2e751df0bb20267a94301763f4b
+[WIKI]: ../wiki
+[RC-023]: ./reviews/rc-023-wiki.md
