@@ -19,7 +19,8 @@ def load_world(path: str | Path) -> WorldData:
     @param path File to read.
     @return Parsed world dictionary.
     """
-    return json.loads(Path(path).read_text(encoding="utf-8"))  # type: ignore[no-any-return]
+    world: WorldData = json.loads(Path(path).read_text(encoding="utf-8"))
+    return world
 
 
 class WorldFileGateway:
