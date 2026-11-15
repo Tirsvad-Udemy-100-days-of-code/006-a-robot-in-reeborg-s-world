@@ -1,21 +1,9 @@
 """!
-@file maze_solver.py
-@brief Right-wall-following algorithm that works on any robot-like object.
+@file wall_following.py
+@brief Right-wall-following rule that works on any robot-like object.
 """
 
-from typing import Protocol
-
-
-class Robot(Protocol):
-    """!
-    @brief The subset of Reeborg's API the solver needs.
-    """
-
-    def move(self) -> None: ...
-    def turn_left(self) -> None: ...
-    def front_is_clear(self) -> bool: ...
-    def right_is_clear(self) -> bool: ...
-    def at_goal(self) -> bool: ...
+from .robot import Robot
 
 
 def turn_right(robot: Robot) -> None:

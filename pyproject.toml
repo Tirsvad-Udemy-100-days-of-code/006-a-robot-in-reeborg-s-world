@@ -21,10 +21,31 @@ classifiers = [
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["pytest>=8"]
+dev = ["pytest>=8,<9", "ruff>=0.6,<1", "mypy>=1.11,<2"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["tests"]
+
+[tool.ruff]
+line-length = 88
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "ANN"]
+
+[tool.ruff.lint.per-file-ignores]
+# The pasteable script runs in Reeborg's world, which provides these names.
+"src/reeborg_maze/presentation/reeborg_script.py" = ["F821", "ANN"]
+"tests/**" = ["ANN"]
+
+[tool.mypy]
+strict = true
+files = ["src"]
+
+[[tool.mypy.overrides]]
+module = "reeborg_maze.presentation.reeborg_script"
+ignore_errors = true
 
 [project.urls]
 Repository = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world"

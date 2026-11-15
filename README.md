@@ -27,11 +27,12 @@ The robot follows the right wall:
 
 The project contains:
 
-- `src/reeborg_maze/reeborg_script.py` – the script to paste into [Reeborg's world](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json).
-- `src/reeborg_maze/maze_solver.py` – the same algorithm as a testable function.
-- `src/reeborg_maze/simulator.py` – a small offline simulator that reads Reeborg world JSON files.
-- `src/reeborg_maze/visualizer.py` – draws the world as text and animates the robot.
-- `tests/` – unit tests and three test worlds with different start headings.
+- `src/reeborg_maze/presentation/reeborg_script.py` – the script to paste into [Reeborg's world](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json).
+- `src/reeborg_maze/domain/` – the same algorithm as a testable function (`wall_following.py`) and the robot interface it needs.
+- `src/reeborg_maze/application/` – the use case that solves a world file, and the ports it needs.
+- `src/reeborg_maze/infrastructure/` – a small offline simulator that reads Reeborg world JSON files.
+- `src/reeborg_maze/presentation/` – the command line, and the drawing that shows the world as text and animates the robot.
+- `tests/` – unit, integration and end-to-end tests, and three test worlds with different start headings.
 
 ## 📋 Requirements
 
@@ -95,6 +96,8 @@ The tests use [pytest](https://pytest.org); each world is solved from every free
 ```bash
 python -m pytest -v
 ```
+
+Check the style and the types with `ruff check src tests` and `mypy`.
 
 ## 📄 License
 
