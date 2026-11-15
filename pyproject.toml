@@ -10,6 +10,14 @@ readme = "README.md"
 requires-python = ">=3.13"
 license = "AGPL-3.0-or-later"
 license-files = ["LICENSE"]
+authors = [{ name = "Jens Tirsvad Nielsen" }]
+keywords = ["reeborg", "maze", "wall-following", "education", "100-days-of-code"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Education",
+  "Programming Language :: Python :: 3.13",
+  "Typing :: Typed",
+]
 dependencies = []
 
 [project.optional-dependencies]
@@ -19,7 +27,7 @@ dev = ["pytest>=8"]
 testpaths = ["tests"]
 
 [project.urls]
-Repository = "https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/006-a_robot_in_Reeborg_s_world"
+Repository = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world"
 
 [tool.setuptools.packages.find]
 where = ["src"]

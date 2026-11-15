@@ -11,6 +11,7 @@ A beginner-friendly Python project that guides a robot through a maze in Reeborg
 - [Tests](#-tests)
 - [License](#-license)
 - [Links](#-links)
+- [Appendix: Project documents](#-appendix-project-documents)
 
 ## 🧭 Overview
 
@@ -101,6 +102,35 @@ python -m pytest -v
 
 ## 🔗 Links
 
-- [Repository](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/006-a_robot_in_Reeborg_s_world)
-- [Documentation](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/006-a_robot_in_Reeborg_s_world#readme)
-- [Issue tracker](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/006-a_robot_in_Reeborg_s_world/issues)
+- [Repository][repository]
+- [Documentation][documentation]
+- [Issue tracker][issues]
+
+## 📎 Appendix: Project documents
+
+The documents a newcomer needs, in reading order.
+
+| Document | What it tells you |
+| --- | --- |
+| [Business Case][BC-001] | Why the project exists, its scope and success criteria |
+| [Stakeholder Analysis][SA-001] | Who is involved; the stakeholder IDs used for owners and reviewers |
+| [Project Plan][PP-001] | The gateways and their schedule |
+| [Milestones][milestones] | One document per gateway: Go/No-Go criteria and tasks |
+| [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
+| [Domain dictionary][DICT-001] | The PO terms and the IT terms |
+| [Traceability matrix][TM-001] | How the artifacts link and when each was last reviewed |
+| [Governance][GOV-001] | The review workflow, who decides and how disputes escalate |
+
+---
+
+[repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world
+[documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/wiki
+[issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/issues
+[BC-001]: ./docs/business-case.md
+[SA-001]: ./docs/stakeholder-analysis.md
+[PP-001]: ./docs/project-plan.md
+[milestones]: ./docs/milestones/
+[registry]: ./docs/artifact-registry.md
+[DICT-001]: ./docs/dictionary.md
+[TM-001]: ./docs/sqa/traceability-matrix.md
+[GOV-001]: ./docs/sqa/governance.md

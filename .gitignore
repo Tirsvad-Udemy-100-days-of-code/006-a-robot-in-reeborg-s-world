@@ -1,6 +1,9 @@
 # Secrets
 .env
 
+# AI prompt log (the repository is public)
+/docs/ai-prompts/
+
 # Byte-compiled / cache
 __pycache__/
 *.py[cod]
