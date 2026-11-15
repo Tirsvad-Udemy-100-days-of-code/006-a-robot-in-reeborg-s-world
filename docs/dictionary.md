@@ -4,14 +4,15 @@
 | Key | Value |
 | --- | --- |
 | ID | DICT-001 |
-| CrossReference | [BC-001], [SA-001] |
+| CrossReference | [BC-001], [SA-001], [DM-001] |
 | Language | en |
 | Domain | education |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-007, autonomous, not independent | [422cb5e] |
+| 2026-11-15 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-007, autonomous, not independent | [422cb5e] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Added CrossReference to DM-001; reviewed in RC-022, autonomous, not independent | pending |
 
 ---
 
@@ -45,3 +46,4 @@ Maps each Product Owner (PO) term of the education domain to its professional IT
 [BC-001]: ./business-case.md
 [SA-001]: ./stakeholder-analysis.md
 [422cb5e]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/422cb5ea48b5e16adbc3ad74902614f5de08c22a
+[DM-001]: ./domain-model.md
