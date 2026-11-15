@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-002, autonomous, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-002, autonomous, not independent | [422cb5e] |
 
 ---
 
@@ -97,8 +97,9 @@ FURPS+ stands for Functionality, Usability, Reliability, Performance, Supportabi
 
 | Role | Stakeholder ID | Date | Decision |
 | --- | --- | --- | --- |
-| Product Owner | S01 | pending | Accepts this analysis through the acceptance of the plan |
+| Product Owner | S01 | [422cb5e] | Accepts this analysis through the acceptance of the plan |
 
 ---
 
 [BC-001]: ./business-case.md
+[422cb5e]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/422cb5ea48b5e16adbc3ad74902614f5de08c22a

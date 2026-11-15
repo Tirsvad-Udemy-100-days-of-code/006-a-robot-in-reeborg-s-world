@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | S01 (Product Owner) | Initial version, G1 state; reviewed in the Product Owner's plan acceptance, autonomous, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | S01 (Product Owner) | Initial version, G1 state; reviewed in the Product Owner's plan acceptance, autonomous, not independent | [422cb5e] |
 
 ---
 
@@ -78,3 +78,4 @@ Tracks backward/forward links between artifact instances so that the Business Ca
 [RC-009]: ./reviews/reviews\rc-009-adr-0001.md
 [SA-001]: ../stakeholder-analysis.md
 [TM-001]: ./traceability-matrix.md
+[422cb5e]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/422cb5ea48b5e16adbc3ad74902614f5de08c22a
