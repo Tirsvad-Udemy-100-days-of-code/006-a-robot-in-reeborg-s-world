@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-015, autonomous, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-015, autonomous, not independent | [f9581e1] |
 
 ---
 
@@ -100,3 +100,4 @@ The diagram was not rendered on a PlantUML server because the registry names non
 [UCD-001]: ./use-case-diagram.md
 [DICT-001]: ./dictionary.md
 [SSD-001]: ./use-cases/uc-001/ssd.md
+[f9581e1]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/f9581e128ebea2e751df0bb20267a94301763f4b

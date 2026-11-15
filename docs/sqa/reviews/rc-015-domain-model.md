@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | S01 (Product Owner) | Initial version; reviewed in the review itself, autonomous, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | S01 (Product Owner) | Initial version; reviewed in the review itself, autonomous, not independent | [f9581e1] |
 
 ---
 
@@ -68,3 +68,4 @@ Go — every Mandatory criterion passes; the criteria of QC-LANG-001 that need a
 [DM-001]: ../../domain-model.md
 [QC-DM-001]: ../../../framework/qc/artifacts/qc-domain-model.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
+[f9581e1]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/f9581e128ebea2e751df0bb20267a94301763f4b

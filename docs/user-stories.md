@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-012, autonomous, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-012, autonomous, not independent | [f9581e1] |
 
 ---
 
@@ -58,3 +58,4 @@ Both stories are Independent of the other gateways, Negotiable in how the result
 [MIL-001]: ./milestones/mil-001-baseline.md
 [MIL-002]: ./milestones/mil-002-use-case-and-code.md
 [MIL-003]: ./milestones/mil-003-wiki-and-handover.md
+[f9581e1]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/f9581e128ebea2e751df0bb20267a94301763f4b

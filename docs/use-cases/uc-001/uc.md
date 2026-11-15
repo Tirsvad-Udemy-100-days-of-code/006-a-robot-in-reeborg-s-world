@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-014, autonomous, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-014, autonomous, not independent | [f9581e1] |
 
 ---
 
@@ -39,3 +39,4 @@ Business rules: the robot may use only the five questions and moves the exercise
 [SA-001]: ../../stakeholder-analysis.md
 [DM-001]: ../../domain-model.md
 [SSD-001]: ./ssd.md
+[f9581e1]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/f9581e128ebea2e751df0bb20267a94301763f4b

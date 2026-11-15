@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-15 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; reviewed in RC-006, autonomous, not independent | [422cb5e] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Added CrossReference to US-001; reviewed in RC-021, autonomous, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Added CrossReference to US-001; reviewed in RC-021, autonomous, not independent | [f9581e1] |
 
 ---
 
@@ -75,3 +75,4 @@ The wiki in `docs/wiki/` in English, Danish (`-da`) and Malay (`-ms`): Home, Get
 [BC-001]: ../business-case.md
 [422cb5e]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/422cb5ea48b5e16adbc3ad74902614f5de08c22a
 [US-001]: ../user-stories.md
+[f9581e1]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/006-a-robot-in-reeborg-s-world/commit/f9581e128ebea2e751df0bb20267a94301763f4b
